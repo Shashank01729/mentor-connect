@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import { Metadata } from "next";
+import Script from "next/script";
 import React, { ReactNode } from "react";
 
 export const metadata: Metadata = {
@@ -25,6 +26,15 @@ const HomeLayout = ({children}: {children: ReactNode}) => {
                     </div>
                 </section>
             </div>
+
+            <Script 
+                src="https://cdn.botpress.cloud/webchat/v2.1/inject.js" 
+                strategy="afterInteractive"
+            />
+            <Script 
+                src="https://mediafiles.botpress.cloud/c986717e-6b29-4b81-b51a-6e0c12ab102d/webchat/v2.1/config.js" 
+                strategy="afterInteractive"
+            />
         </main>
     )
 }
