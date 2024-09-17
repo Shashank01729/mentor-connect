@@ -35,19 +35,19 @@ export default function RootLayout({
       <ClerkProvider 
         appearance={{
           layout:{
-            logoImageUrl: '/icons/yoom-logo.svg',
+            logoImageUrl: '/icons/menco.svg',
             socialButtonsVariant: 'iconButton'
           },
           variables:{
-            colorText: '#ffffff',
-            colorPrimary: '#0E78F9',
-            colorBackground: '#1C1F2E',
-            colorInputBackground: '#252a41',
+            colorText: '#000000',
+            colorPrimary: '#000000',
+            colorBackground: '#ffffff',
+            colorInputBackground: '#ffffff',
             colorInputText: '#ffffff'
           }
           }}
       >
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-dark-2`}>
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-cus-1`}>
           {children}
           <Toaster />
         </body>

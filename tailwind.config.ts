@@ -10,6 +10,10 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			cus:{
+				1: '#000000',
+				2: '#121212'
+			},
 			dark: {
 				1: '#1C1F2E',
 				2: '#161925',
@@ -28,10 +32,10 @@ const config: Config = {
 				1: '#FF742E',
 			},
 			purple: {
-				1: '#830EF9',
+				1: '#9C7743',
 			},
 			yellow: {
-				1: '#F9A90E',
+				1: '#93A770',
 			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -75,7 +79,7 @@ const config: Config = {
   			}
   		},
 		backgroundImage:{
-			hero: "url('/images/hero-background.png')"
+			hero: "url('/images/bgpic.png')"
 		},
   		borderRadius: {
   			lg: 'var(--radius)',

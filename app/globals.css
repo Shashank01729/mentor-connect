@@ -108,7 +108,7 @@ body {
 }
 
 .cl-logoBox {
-  height: 40px;
+  height: 80px;
 }
 .cl-dividerLine {
   background: #252a41;
@@ -123,15 +123,15 @@ body {
   color: white;
 }
 .cl-userButtonPopoverActionButton {
-  color: white;
+  color: #000000;
 }
 
-.cl-providerIcon__github{
+/* .cl-providerIcon__github{
   filter: invert(1);
-}
+} */
 
 .cl-socialButtonsIconButton:hover{
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.194);
   transition: all 0.25s ease-in ;
 }
 
