@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from '@/components/ui/button';
+import WhiteboardCanvas from '@/components/whiteboard';
 import { useToast } from '@/hooks/use-toast';
 import { useGetCallById } from '@/hooks/useGetCallById';
 import { useUser } from '@clerk/nextjs';
